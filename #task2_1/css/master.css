@@ -1,0 +1,116 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: red;
+    height: 398px;
+}
+
+header nav {
+
+    box-shadow: -1px -15px 20px 0px black;
+}
+
+header nav ul {
+
+    list-style: none;
+    display: flex;
+    padding: 7px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 7px;
+    color: aliceblue;
+}
+
+header nav ul .home {
+    background-color: aliceblue;
+    color: black;
+    padding: 7px;
+    margin-left: -8px;
+}
+
+header .hero {
+    margin: 47px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .hero * {
+
+    margin: 29px 0px;
+    color: aliceblue;
+}
+
+header .hero button {
+    background-color: black;
+    border: none;
+    padding: 8px;
+    width: 111px;
+}
+
+main .anch {
+
+    padding: 42px 103px;
+    display: flex;
+    align-items: center;
+}
+
+main .mug {
+    padding: 42px 103px;
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+}
+
+main img {
+    padding: 0px 16px;
+    width: 200px;
+}
+
+main .parg .p1 {
+    padding-top: 42px;
+}
+
+main .parg .p2 {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    color: #434141;
+}
+
+main .s3 {
+    padding: 42px 103px;
+    background-color: #434141;
+}
+
+main .s3 p {
+    color: aliceblue;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    padding: 42px 103px;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img {
+
+    width: 16px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #434141;
+}
+
+footer p {
+    color: #434141;
+    margin-top: 25px;
+    font-size: 13px;
+}

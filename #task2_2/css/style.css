@@ -1,0 +1,30 @@
+.load {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 7px solid transparent;
+    animation: gradient 2s 3s linear infinite;
+    -webkit-animation: loader 2s 3s linear infinite;
+    margin: 275px auto;
+}
+
+
+@keyframes loader {
+    0% {
+
+        border-top-color: rgba(255, 153, 153, 1);
+    }
+
+    25% {
+        border-right-color: rgba(255, 153, 153, 1);
+    }
+
+    50% {
+        border-bottom-color: rgba(255, 153, 153, 1);
+    }
+
+    75% {
+        border-left-color: rgba(255, 153, 153, 1);
+    }
+
+}

@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+head {
+  margin: 0px;
+}
+
+header nav {
+  background-color: black;
+  padding: 9px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*  */
+header nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+header nav ul li a:hover,header nav ul li a:focus {
+  color: #f7c686;
+  text-shadow: 0px 0px 20px #f9d19c;
+}
+main .where form button:hover,main .where form button:focus {
+  
+  font-size: 14px;
+
+}
+header .hero {
+  position: relative;
+  display: flex;
+}
+
+header .hero img {
+  width: 100%;
+  height: 100vh;
+}
+
+header .hero .title {
+  width: 75px;
+  font-size: 150px;
+  position: absolute;
+  color: aliceblue;
+  top: 37%;
+  left: 37%;
+}
+
+header .hero .foot {
+  width: 100%;
+  bottom: 0px;
+  position: absolute;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .hero .foot .add {
+  margin: 7px 15px;
+}
+
+header .hero .foot .time {
+  margin: 7px 15px;
+  background-color: black;
+  color: aliceblue;
+  padding: 3px;
+}
+
+main * {
+  margin: auto;
+  margin-top: -4px;
+  margin-bottom: 31px;
+  width: 524px;
+}
+
+main .tit {
+  width: fit-content;
+  background-color: black;
+  color: aliceblue;
+  padding: 6px;
+  margin: 55px 181px;
+}
+
+main .bef {
+
+  background-color: #e3dddd;
+  padding: 0.5px;
+}
+
+main .bef::before {
+  background-color: #b2bbbb;
+  position: absolute;
+  width: 7px;
+  height: 114px;
+  text-align: center;
+  content: "";
+}
+
+.men .menu .nav {
+
+  box-shadow: -2px 11px 20px 0px #ebeaea;
+  height: 35px;
+}
+
+.men .menu .nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: -16px 0px;
+}
+
+.men .menu .nav ul li a {
+  text-decoration: none;
+  text-align: center;
+  margin: 7px 27px;
+  padding: 2.2px;
+
+}
+
+.men .menu .nav ul li {
+
+  margin: 9px 0px;
+}
+
+.men .menu .nav ul button {
+  border: none;
+  width: 259px;
+  height: 26px;
+}
+.men .menu .eat1 {
+  position: relative;
+}
+
+.men.menu.nav.drink:hover{
+  background-color: red;
+}
+.men.menu.nav.drink:hover+.men.menu.eat1
+,.men .menu .nav .drink:focus + .men .menu .eat1
+  {
+  display: none;
+}
+.men .menu span {
+  color: #b7b1b1;
+}
+
+.men .menu {
+
+  box-shadow: -2px 11px 20px 0px #ebeaea;
+}
+
+.where span {
+  background-color: black;
+  color: aliceblue;
+  padding: 2px 4px;
+}
+
+main .where form input {
+  height: 40px;
+}
+
+main .where form input:hover,
+main .where form input:focus {
+  border: solid #e5af5e;
+}
+
+main .where form button {
+  background-color: black;
+  color: aliceblue;
+  width: 124px;
+  height: 40px;
+  border: none;
+  position: relative;
+}
+
+main .where form button::before {
+  content: "";
+  width: 136px;
+  height: 50px;
+  background-image: linear-gradient(to right, #e5af5e, #6d4b19 33%, #e5af5e);
+  position: absolute;
+  z-index: -1;
+  top: -5px;
+  right: -6px;
+}
+
+footer div {
+    position: absolute;
+    left: 0px;
+   
+    margin-left: 437px;
+}
+
+footer {
+  padding: 123px 226px;
+  width: 100%;
+  height: 18px;
+  background-color: #efe9ea;
+}
